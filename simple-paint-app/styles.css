@@ -1,0 +1,39 @@
+.defaultText {
+    user-select: none;
+    font-family: Courier, serif;
+    text-align: center;
+}
+
+button {
+    user-select: none;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    size: 70px;
+    font-size: 20px;
+    border-radius: none;
+    border-color: black;
+    outline: none;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #727278;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+
+canvas {
+    background-color: whitesmoke;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+canvas:hover {
+    background-color: #f0f0f0
+}
